@@ -1,25 +1,25 @@
 #!/data/data/com.termux/files/usr/bash
+echo "CREDITOS: Hax4us"
 echo "          **************************"
 echo
-echo "               Hax4Us (@devil)"
+echo "               D I S O R D E R"
 echo
 echo "          **************************"
 echo
-echo "You are going to install SEToolkit (Beta) in your termux.. :D"
+echo "Você vai instalar SEToolkit (Beta) em seu termux"
 echo
 apt update && apt upgrade
 apt install python2 python python-dev python2-dev wget tar termux-exec
 echo
-echo "Dependencies Installed..:D"
+echo "Dependências Instaladas!"
 echo
-echo "Setoolkit is downloading......"
+echo "Setoolkit sendo baixado..."
 wget https://hax4us.github.io/setoolkit_7.7.2.gz
 echo
-echo "Extracting ........"
+echo "Extraindo........"
 tar -xf setoolkit_7.7.2.gz
 echo
-echo "Extracted.... :D"
+echo "[OK]...."
 echo
-echo " Now exit from termux and reopen then goto setoolkit folder and run setup.py script after then you can run setoolkit just by this command :- setoolkit"
-echo
-echo "U wanna host this package (Setoolkit_7.7.2.gz) in your repo..? Shame on you ...!"
+echo "Agora, saia do termux e reabra-o, então vá até /setoolkit e execute o script setup.py"
+echo "depois, você pode executar setoolkit apenas por este comando -> setoolkit "
